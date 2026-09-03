@@ -76,6 +76,32 @@ export default function Home() {
           <span>🏷️</span> Sale
         </a>
       </section>
+            {/* Footer */}
+      <footer className="mt-auto bg-[#3d4f43] px-8 py-12 text-sm text-white">
+        <div className="flex flex-wrap justify-between gap-8">
+          <div>
+            <div className="mb-3 text-lg font-semibold">After.noon</div>
+            <p className="max-w-xs text-gray-300">
+              Modern furniture and lighting for the well-designed home.
+            </p>
+          </div>
+          <div className="flex flex-col gap-2">
+            <span className="font-semibold">Shop</span>
+            <a href="#" className="text-gray-300 hover:text-white">Furniture</a>
+            <a href="#" className="text-gray-300 hover:text-white">Lighting</a>
+            <a href="#" className="text-gray-300 hover:text-white">Rugs</a>
+          </div>
+          <div className="flex flex-col gap-2">
+            <span className="font-semibold">Company</span>
+            <a href="#" className="text-gray-300 hover:text-white">About</a>
+            <a href="#" className="text-gray-300 hover:text-white">Stories</a>
+            <a href="#" className="text-gray-300 hover:text-white">Contact</a>
+          </div>
+        </div>
+        <div className="mt-8 border-t border-white/20 pt-6 text-gray-400">
+          © 2026 After.noon. All rights reserved.
+        </div>
+      </footer>
     </div>
   );
 }
