@@ -36,6 +36,31 @@ export default function Home() {
           </div>
         </div>
       </header>
+            {/* ③ 히어로 */}
+      <section className="relative h-[520px] w-full overflow-hidden">
+        {/* 배경 이미지 */}
+        <img
+          src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1600&q=80"
+          alt="Living room"
+          className="h-full w-full object-cover"
+        />
+        {/* 가운데 검은 카드 */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="flex flex-col items-center gap-4 bg-black/70 px-16 py-12 text-center text-white">
+            <h1 className="text-4xl font-semibold leading-tight">
+              The Annual
+              <br />
+              Holiday Sale
+            </h1>
+            <p className="text-sm text-gray-300">
+              I&apos;m a title. Click here to add your own text and edit me.
+            </p>
+            <button className="mt-2 bg-white px-6 py-2 text-sm text-black">
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
