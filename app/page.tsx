@@ -61,6 +61,21 @@ export default function Home() {
           </div>
         </div>
       </section>
+            {/* ④ 카테고리 바 */}
+      <section className="flex divide-x divide-gray-200 border-y border-gray-200">
+        <a href="#" className="flex flex-1 items-center justify-center gap-2 py-8 text-sm text-gray-700 hover:bg-gray-50">
+          <span>🛋️</span> Furniture
+        </a>
+        <a href="#" className="flex flex-1 items-center justify-center gap-2 py-8 text-sm text-gray-700 hover:bg-gray-50">
+          <span>💡</span> Lighting
+        </a>
+        <a href="#" className="flex flex-1 items-center justify-center gap-2 py-8 text-sm text-gray-700 hover:bg-gray-50">
+          <span>🔲</span> Rugs
+        </a>
+        <a href="#" className="flex flex-1 items-center justify-center gap-2 py-8 text-sm text-gray-700 hover:bg-gray-50">
+          <span>🏷️</span> Sale
+        </a>
+      </section>
     </div>
   );
 }
